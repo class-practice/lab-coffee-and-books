@@ -1,0 +1,11 @@
+<h3>Our recommended Places</h3>
+
+<div id='places-list'>
+  <ul>
+  {{#each allPlaces}}
+
+  <li>{{name}} | <a href="/places/details?place_id={{id}}">Place Details |</a> <a href="/places/edit?place_id={{id}}">Edit Place</a></li>
+
+{{/each}}
+</ul>
+</div>
